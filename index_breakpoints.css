@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Esencia';
+    src: url('Esencia.woff') format('woff');
+}
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    height: 100%;
+}
+
+
+#top {
+    background-color: #09051e;
+    margin: 0px;
+    padding: 0px;
+}
+#arch_in_hacks {
+    
+    color: #bd4e67;
+}
+#bottom {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 12em;
+    font-weight: normal;
+    color: #09051e;
+    text-align: center;
+    font-family: 'Esencia';
+    margin: 0;
+    margin-top: -50px;
+    padding: 0;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    
+    border: none;
+    height: 1px;
+    background-color: black;
+
+}
+@media only screen and (max-width: 1000px) {
+    h1 {
+        margin-top: 0;
+    }
+    #square {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+    ::placeholder, .field {
+        font-size: 1em;
+    }
+    #facebook {
+        bottom: 30px;
+        right: 30px;
+    }
+
+}
+#facebook {
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+#square {
+    height: 64px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#form {
+    text-align: center;
+}
+input {
+    background-color: #09051e;
+    font-family: 'Open Sans', sans-serif;
+}
+.button {
+    cursor: pointer;
+    background-color: #bd4e67;
+}
+:focus {
+    outline: 0;
+}
+#mc_embed_signup_scroll {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+.field {
+    margin: 10px;
+    margin-top: 60px;
+    color: white;
+    border: none;
+    padding: 16px; 
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+::placeholder {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    color: #09051e;
+    text-align: center;
+}
+h3 {
+    margin: 0;
+    padding: 0px;
+    color: #09051e;
+    text-align: center;
+}
