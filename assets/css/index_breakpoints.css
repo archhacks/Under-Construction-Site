@@ -66,15 +66,12 @@ hr {
         margin-top: 100px;
         font-size: 25vw;
     }
-    ::placeholder, .field {
-        font-size: 1em;
-        width: 70%;
+    h2 {
+        font-size: 5vw;
     }
-    .mc-field-group {
-        flex-grow: 3;
-    }
-    .clear {
-        flex-grow: 1;
+    .field {
+        font-size: 2em;
+        padding: 30px;
     }
     #facebook_desktop {
         display: none;   
@@ -98,7 +95,9 @@ hr {
     #facebook_mobile {
         display: none;
     }
-    
+    .field {
+        padding: 16px; 
+    }
 }
 
 #square {
@@ -138,7 +137,6 @@ form {
     margin-top: 60px;
     color: white;
     border: none;
-    padding: 16px; 
     border-radius: 5px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
