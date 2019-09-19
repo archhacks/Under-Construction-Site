@@ -18,7 +18,10 @@ body {
 html {
     height: 100%;
 }
-
+.fa-facebook {
+    color: #09051e;
+    content: '\f09a';
+}
 
 #top {
 
@@ -56,28 +59,48 @@ hr {
 
 }
 @media only screen and (max-width: 1000px) {
-    h1 {
-        margin-top: 0;
+    #top {
+        padding-top: 300px;
     }
-    #square {
-        padding-top: 70px;
-        padding-bottom: 30px;
+    h1 {
+        margin-top: 100px;
+        font-size: 25vw;
     }
     ::placeholder, .field {
         font-size: 1em;
+        width: 70%;
     }
-    #facebook {
+    .mc-field-group {
+        flex-grow: 3;
+    }
+    .clear {
+        flex-grow: 1;
+    }
+    #facebook_desktop {
+        display: none;   
+    }
+    #facebook_mobile {
+        display: block;
+        cursor: pointer;
+        position: fixed;
         bottom: 30px;
         right: 30px;
     }
+}
+@media only screen and (min-width: 1000px) {
+    #facebook_desktop {
+        display: block;
+        cursor: pointer;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+    }
+    #facebook_mobile {
+        display: none;
+    }
+    
+}
 
-}
-#facebook {
-    cursor: pointer;
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-}
 #square {
     height: 64px;
     width: 320px;
@@ -116,7 +139,7 @@ form {
     color: white;
     border: none;
     padding: 16px; 
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 ::placeholder {
