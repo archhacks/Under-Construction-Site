@@ -99,7 +99,14 @@ hr {
         padding: 16px; 
     }
 }
-
+.fa-chevron-circle-down {
+    position: fixed;
+    bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
 #square {
     height: 64px;
     width: 320px;
