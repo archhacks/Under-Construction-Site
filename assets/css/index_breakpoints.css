@@ -21,9 +21,11 @@ html {
 
 
 #top {
+
     background-color: #09051e;
     margin: 0px;
     padding: 0px;
+    padding-top: 50px;
 }
 #arch_in_hacks {
     
