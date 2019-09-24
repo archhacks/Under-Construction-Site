@@ -22,7 +22,10 @@ html {
     color: #09051e;
     content: '\f09a';
 }
-
+.archhacks_title_div {
+    margin-left: auto;
+    margin-right: auto;
+}
 #top {
 
     background-color: #09051e;
@@ -30,9 +33,8 @@ html {
     padding: 0px;
     padding-top: 50px;
 }
-#arch_in_hacks {
-    
-    color: #bd4e67;
+.mc-field-group {
+    max-width: 80%;
 }
 #bottom {
     margin: 0;
@@ -59,6 +61,9 @@ hr {
 
 }
 @media only screen and (max-width: 1000px) {
+    .archhacks_title_div {
+        max-width: 80%;
+    }
     #top {
         padding-top: 300px;
     }
@@ -70,21 +75,25 @@ hr {
         font-size: 5vw;
     }
     .field {
-        font-size: 2em;
-        padding: 30px;
+        padding: 16px;
     }
     #facebook_desktop {
         display: none;   
     }
     #facebook_mobile {
+        color: white;
         display: block;
         cursor: pointer;
         position: fixed;
-        bottom: 30px;
+        top: 30px;
         right: 30px;
+        font-size: 10vw;
     }
 }
 @media only screen and (min-width: 1000px) {
+    .archhacks_title_div {
+        max-width: 30%;
+    }
     #facebook_desktop {
         display: block;
         cursor: pointer;
@@ -117,7 +126,9 @@ hr {
     text-align: center;
 }
 #form {
+    font-size: 4vw;
     text-align: center;
+    max-width: 100%;
 }
 input {
     background-color: #09051e;
@@ -131,6 +142,7 @@ input {
     outline: 0;
 }
 #mc_embed_signup_scroll {
+    max-width: 100%;
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -138,6 +150,7 @@ input {
 }
 form {
     text-align: center;
+    max-width: 100%;
 }
 .field {
     margin: 10px;
