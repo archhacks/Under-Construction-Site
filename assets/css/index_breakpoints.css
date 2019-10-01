@@ -130,7 +130,7 @@ hr {
 }
 
 .fa-chevron-circle-down {
-    position: absolute;
+    position: relative;
     bottom: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -243,7 +243,7 @@ h3 {
 }
 .faq-div {
     padding-top: 30px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     margin-left: 7vw;
     margin-right: 7vw;
 }
