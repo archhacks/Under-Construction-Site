@@ -9,7 +9,7 @@ img {
     padding: 0;
 }
 .front-page {
-    height: 100%;
+    min-height: 100vh;
 }
 .header-main {
     max-width: 70%;
@@ -19,6 +19,13 @@ img {
 }
 .hack-day-text {
     text-align: center;
+}
+.hack-day-text-div {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -38,8 +45,9 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
-.local-hack-day {
-    max-width: 25%;
+.local-hack-nights {
+    max-width: 55%;
+    margin: 60px;
 }
 #top {
 
@@ -51,18 +59,11 @@ html {
 .mc-field-group {
     max-width: 80%;
 }
+.faq-header {
+    font-size: 3em;
+}
 #bottom {
     margin: 0;
-    padding: 0;
-}
-h1 {
-    font-size: 12em;
-    font-weight: normal;
-    color: #09051e;
-    text-align: center;
-    font-family: 'Esencia';
-    margin: 0;
-    margin-top: -50px;
     padding: 0;
 }
 hr {
@@ -129,7 +130,7 @@ hr {
 }
 
 .fa-chevron-circle-down {
-    position: fixed;
+    position: absolute;
     bottom: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -202,6 +203,7 @@ h3 {
 
 
 /*  MAIN CONTENT */
+
 #content-main .header-main{
     margin-top: 50px;
 }
@@ -215,10 +217,37 @@ h3 {
 
 #content-main .card-wrapper-main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto 1fr 1fr 1fr auto;
 }
 
-#content-main .card-wrapper-main .card{
+
+/* #content-main .card-wrapper-main */
+
+
+.card-subheader {
+    text-align: center;
+    margin-bottom: 36px;
+}
+.card-pic-div {
+    height: 60px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    width: 100%;
+}
+.card-pic {
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 100%;
+    max-height: 100%;
+}
+.faq-div {
+    padding-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+.card{
     /* flex: 1; */
     background-color: #ffffff;
     box-shadow: 5px 10px 18px #d9d9d9;
@@ -227,18 +256,30 @@ h3 {
     padding: 80px 50px;
     border-radius: 10px;
 }
-
-
-@media only screen and (max-width:800px) {
+.card-text {
+    text-align: center;
+}
+.faq-question {
+    text-align: left;
+}
+.faq-answer {
+    text-align: left;
+    font-weight: normal;
+}
+@media only screen and (max-width:1000px) {
     #content-main .card-wrapper-main{
         display: block;
     }
     #content-main .card-wrapper-main .card{
-        width: 100%;
+        /* width: 100%; */
     }
 }
 
-@media only screen and (min-width:800px) {
-    
+@media only screen and (min-width:1000px) {
+    .card-wrapper-main {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
