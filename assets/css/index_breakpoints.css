@@ -79,7 +79,9 @@ hr {
     background-color: black;
 
 }
-
+.archhacks-email {
+    color: #bd4e67;
+}
 
 
 @media only screen and (max-width: 1000px) {
