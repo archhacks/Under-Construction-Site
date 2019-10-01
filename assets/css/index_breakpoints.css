@@ -10,9 +10,10 @@ img {
 }
 .front-page {
     min-height: 100vh;
+    box-shadow: 5px 10px 26px #999;
 }
 .header-main {
-    max-width: 70%;
+    max-width: 85%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -46,8 +47,10 @@ html {
     margin-right: auto;
 }
 .local-hack-nights {
-    max-width: 55%;
+    max-width: 85%;
     margin: 60px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #top {
 
@@ -90,7 +93,7 @@ hr {
         margin-top: 100px;
         font-size: 25vw;
     }
-    h2 {
+    .hometown {
         font-size: 5vw;
     }
     .field {
@@ -104,7 +107,7 @@ hr {
         color: white;
         display: block;
         cursor: pointer;
-        position: fixed;
+        position: absolute;
         top: 30px;
         right: 30px;
         font-size: 10vw;
@@ -176,6 +179,7 @@ form {
 .field {
     margin: 10px;
     margin-top: 60px;
+    margin-bottom: 60px;
     color: white;
     border: none;
     border-radius: 5px;
@@ -204,14 +208,18 @@ h3 {
 
 /*  MAIN CONTENT */
 
-#content-main .header-main{
-    margin-top: 50px;
+#content-main {
+    background-color: #fbfbfb;
+    box-shadow: inset 1px 4px 36px -6px #ddd;
 }
 
-#content-main .header-main img {
+#content-main .header-main{
+    padding-top: 50px;
+}
+
+#content-main .header-main {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     display: block;
 }
 
@@ -267,6 +275,11 @@ h3 {
     font-weight: normal;
 }
 @media only screen and (max-width:1000px) {
+    .card-wrapper-main {
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     #content-main .card-wrapper-main{
         display: block;
     }
