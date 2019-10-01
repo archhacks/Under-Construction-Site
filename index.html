@@ -80,30 +80,33 @@
                 <div></div>
                 <div class="card card-1">
                     <h3 class="card-header">October 7th</h3>
+                    <h4 class="card-header card-header-day">Monday</h4>
                     <div class="card-pic-div">
                         <img class="card-pic" src="assets/images/azure-pic.png" alt="azure pic">
                     </div>
                 <h4 class="card-subheader">Build & Deploy Node Apps with Microsoft Azure</h4>
                 <p class="card-text">Learn about web development using Node.js and the Microsoft Azure ecosystem.</p>
-                    <p class="card-text">Eads 204 / 7-9pm</p>
+                    <p class="card-text">Eads 204 | 7-9pm</p>
                 </div>
                 <div class="card card-2">
                     <h3 class="card-header">October 8th</h3>
+                    <h4 class="card-header card-header-day">Tuesday</h4>
                     <div class="card-pic-div">
                             <img class="card-pic" src="assets/images/assistant-pic.png" alt="assistant pic">
                         </div>
                     <h4 class="card-subheader">Build Custom Actions for Google Assistant</h4>
                     <p class="card-text">Learn to build an Action for Google Assistant using Google Cloud Platform and Dialogflow.</p>
-                    <p class="card-text">Eads 204 / 7-9pm</p>
+                    <p class="card-text">Eads 204 | 7-9pm</p>
                 </div>
                 <div class="card card-3">
                     <h3 class="card-header">October 9th</h3>
+                    <h4 class="card-header card-header-day">Wednesday</h4>
                     <div class="card-pic-div">
                             <img class="card-pic" src="assets/images/twilio-pic.png" alt="twilio pic">
                         </div>
                     <h4 class="card-subheader">Twilio 101 - Send SMS Messages & Phone Calls</h4>
                     <p class="card-text">Learn to send your first SMS messages and phone calls by playing a cool game called TwilioQuest.</p>
-                    <p class="card-text">Eads 204 / 7-9pm</p>
+                    <p class="card-text">Eads 204 | 7-9pm</p>
                 </div>
                 <div></div>
             </div>
@@ -121,8 +124,31 @@
                     var v2="EQCPEBWIXYWMDPF35";var v7=unescape("%2C%3F%25%3F%05%23%25*016./%23hZZ");var v5=v2.length;var v1="";for(var v4=0;v4<v5;v4++){v1+=String.fromCharCode(v2.charCodeAt(v4)^v7.charCodeAt(v4));}document.write(v1);
                     //--></script> <noscript>!email requires JavaScript!</noscript>
                     </span> if you have any questions, concerns, or kumquats!</h3>
+            </div>
+            <footer id="footer">
+                <div class="footer-content">
+                    <!-- <p><a href="">Facebook</a>|<a href="">Instagram</a>|<a href="">Twitter</a></p>           -->
                 </div>
+
+            </footer>
         </div>
 
+
     </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var topOfOthDiv = $("#footer").offset().top;
+            $(window).scroll(function() {
+                if ($(window).width() < 1000) {
+                    return;
+                }
+                if($(window).scrollTop() + $(window).height() > topOfOthDiv) {
+                    $("#facebook_desktop").hide();
+                } else {
+                $("#facebook_desktop").show();
+                }
+            });
+        });
+    </script>
 </html>
