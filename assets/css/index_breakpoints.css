@@ -1,0 +1,343 @@
+@font-face {
+    font-family: 'Esencia';
+    src: url('Esencia.woff') format('woff');
+}
+img {
+    /* max-width: 100%; */
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.front-page {
+    min-height: 100vh;
+    box-shadow: 5px 10px 26px #999;
+}
+.header-main {
+    max-width: 85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hometown {
+    margin-bottom: 0;
+    padding-top: 1em;
+}
+.hack-day-text {
+    text-align: center;
+    font-weight: normal;
+}
+.hack-day-text-div {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    height: 100%;
+}
+.fa-facebook {
+    color: #09051e;
+    content: '\f09a';
+}
+.archhacks_title_div {
+    margin-left: auto;
+    margin-right: auto;
+}
+.local-hack-nights {
+    max-width: 85%;
+    margin: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#top {
+
+    background-color: #09051e;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+}
+.mc-field-group {
+    max-width: 80%;
+}
+.faq-header {
+    font-size: 3em;
+    font-weight: 600;
+}
+#bottom {
+    margin: 0;
+    padding: 0;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    
+    border: none;
+    height: 1px;
+    background-color: black;
+
+}
+.archhacks-email {
+    color: #bd4e67;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .archhacks_title_div {
+        max-width: 80%;
+    }
+    #top {
+        padding-top: 30vh;
+    }
+    h1 {
+        margin-top: 100px;
+        font-size: 25vw;
+    }
+    .hometown {
+        font-size: 5vw;
+    }
+    .field {
+        padding: 16px;
+        min-width: 50%;
+    }
+    #facebook_desktop {
+        display: none;   
+    }
+    #facebook_mobile {
+        color: white;
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        font-size: 10vw;
+    }
+    .more-content {
+        margin-bottom: 2vh;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .archhacks_title_div {
+        /*max-width: 30%;*/
+    }
+    #facebook_desktop {
+        display: block;
+        cursor: pointer;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+    }
+    #facebook_mobile {
+        display: none;
+    }
+    .field {
+        padding: 16px; 
+    }
+}
+
+.fa-chevron-circle-down {
+    position: relative;
+    bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+#square {
+    height: 64px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#form {
+    font-size: 4vw;
+    text-align: center;
+    max-width: 100%;
+}
+input {
+    background-color: #09051e;
+    font-family: 'Open Sans', sans-serif;
+}
+.button {
+    cursor: pointer;
+    background-color: #bd4e67;
+}
+:focus {
+    outline: 0;
+}
+#mc_embed_signup_scroll {
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+form {
+    text-align: center;
+    max-width: 100%;
+}
+.field {
+    margin: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+::placeholder {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    color: #09051e;
+    text-align: center;
+}
+h3, h4 {
+    margin: 0;
+    padding: 0px;
+    color: #09051e;
+    text-align: center;
+}
+
+
+
+/*  MAIN CONTENT */
+
+#content-main {
+    background-color: #fbfbfb;
+    box-shadow: inset 1px 4px 36px -6px #ddd;
+}
+
+#content-main .header-main{
+    padding-top: 50px;
+}
+
+#content-main .header-main {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#content-main .card-wrapper-main{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr auto;
+}
+
+
+/* #content-main .card-wrapper-main */
+
+
+.card-subheader {
+    text-align: center;
+    margin-bottom: 36px;
+}
+.card-pic-div {
+    height: 60px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    width: 100%;
+}
+.card-pic {
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 100%;
+    max-height: 100%;
+}
+.faq-div {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-left: 17vw;
+    margin-right: 17vw;
+}
+.card{
+    /* flex: 1; */
+    background-color: #ffffff;
+    box-shadow: 5px 10px 18px #d9d9d9;
+    
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+.card-text {
+    text-align: center;
+}
+.faq-question {
+    text-align: left;
+    margin-bottom: 0.2em;
+}
+.faq-answer {
+    text-align: left;
+    font-weight: normal;
+    margin-bottom: 1.5em;
+}
+@media only screen and (max-width:1000px) {
+    .card-wrapper-main {
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #content-main .card-wrapper-main{
+        display: block;
+    }
+    #content-main .card-wrapper-main .card{
+        /* width: 100%; */
+    }
+    .archhacks_title {
+        max-width: 100%;
+    }
+    .faq-answer {
+        margin-bottom: 0.5em;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .card-wrapper-main {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .archhacks_title {
+        margin: 0 auto;
+    }
+
+}
+
+.more-content {
+    position: absolute;
+    right: 0;
+    bottom: .5rem;
+    left: 0;
+    text-align: center;
+}
+.more-content-chevron {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer {
+    margin: 0;
+    margin-top: 1em;
+    padding: 1.25em 0;
+    background-color: #09051e;
+}
+footer a {
+    color: white;
+}
+.footer-content {
+    margin-left: 17vw;
+    margin-right: 17vw;
+}
