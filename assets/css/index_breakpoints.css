@@ -105,7 +105,7 @@ hr {
         font-size: 5vw;
     }
     .field {
-        padding: 16px;
+        padding: 10px;
         min-width: 50%;
     }
     #facebook_desktop {
@@ -300,6 +300,9 @@ h3, h4 {
     }
     .faq-answer {
         margin-bottom: 0.5em;
+    }
+    input {
+        font-size: 3.5vw;
     }
 }
 
