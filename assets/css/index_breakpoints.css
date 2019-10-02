@@ -341,3 +341,6 @@ footer a {
     margin-left: 17vw;
     margin-right: 17vw;
 }
+input {
+    -webkit-appearance: none;
+}
