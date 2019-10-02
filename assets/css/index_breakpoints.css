@@ -50,6 +50,7 @@ html {
 .archhacks_title_div {
     margin-left: auto;
     margin-right: auto;
+    background: white;
 }
 .local-hack-nights {
     max-width: 85%;
@@ -63,6 +64,7 @@ html {
     margin: 0px;
     padding: 0px;
     padding-top: 50px;
+    margin-bottom: -1px;
 }
 .mc-field-group {
     max-width: 80%;
